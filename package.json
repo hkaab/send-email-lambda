@@ -1,0 +1,30 @@
+{
+  "name": "send-email-lambda",
+  "version": "1.0.0",
+  "description": "A lightweight AWS Lambda function to send emails using AWS SES or Nodemailer.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src/**/*.js"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "ses",
+    "email",
+    "nodemailer",
+    "serverless",
+    "nodejs"
+  ],
+  "author": "Hossein Kaabi",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.500.0",
+    "nodemailer": "^6.9.9"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.56.0"
+  },
+  "type": "module"
+}
